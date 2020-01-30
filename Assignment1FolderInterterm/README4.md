@@ -6,6 +6,6 @@ Matthew Olivo
 Assignment 1
 
 
-this is the hello world Assignment
+this is the first Assignment for c++ interterm
 
 i did not use online resources
