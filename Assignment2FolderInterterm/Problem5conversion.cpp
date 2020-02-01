@@ -2,19 +2,21 @@
 #include <cmath>
 using namespace std;
 
+int totalInches;
+
 
 // method to convert feet and inches to total inches
 float lengthInput(int feet, int inches){
-  int totalInches;
 
   totalInches = (feet * 12) + inches;
 
   cout << "Your length is a total of: " << totalInches << " Inches."<< endl;
+
+  return totalInches;
 }
 
 // method to convert total inches to meters
-float convertInput(){
-  int totalInches;
+void convertInput(){
 
   float meters;
   float cm;
@@ -26,12 +28,11 @@ float convertInput(){
   cout << "It is also: " << cm << " centimeters." << endl;
 
 }
-
 // main method
 int main(int argc, char **argv) {
+
   int feet;
   int inches;
-  int totalInches;
   string keepGoing;
   keepGoing = "KeepGoing";
 
